@@ -1,3 +1,4 @@
+# remember to install fafbseg by using the command pip3 install fafbseg in your terminal
 import navis
 import trimesh
 import fast_simplification  # Import the library directly
