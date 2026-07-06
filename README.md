@@ -3,6 +3,8 @@ single-neuron-mesh.py is to download meshes of individual neurons, while mesh-co
 
 Before using this code, install Python version 3.11.5 and VSCode, and create a virtual environment after opening a project folder.
 
+In VSCode, download the Python extension, then create a virtual environment in your project folder.
+
 In your project terminal, install fafbseg by using pip3 install fafbseg.
 
 Set up the FlyWire dataset by following this link (https://fafbseg-py.readthedocs.io/en/latest/source/tutorials/flywire_setup.html#flywire-setup). Generate a new token using https://global.daf-apis.com/auth/api/v1/create_token.
