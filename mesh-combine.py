@@ -1,10 +1,11 @@
 # remember to install fafbseg by using the command pip3 install fafbseg in your terminal
 import navis
 import trimesh
-import fast_simplification  # Import the library directly
+# import fast_simplification  # Not necessary
 from fafbseg import flywire
 
-flywire.set_default_dataset("public")
+# flywire.set_chunkedgraph_secret("insert token here")
+flywire.set_default_dataset("public") # sets default dataset to public, no additional access token is required
 
 print("Searching for neurons ...")
 neuron_criteria = flywire.NeuronCriteria(type="^KCapbp-m$", side="right", regex=True)
