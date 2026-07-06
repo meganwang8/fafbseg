@@ -11,6 +11,8 @@ Set up the FlyWire dataset by generating a new token using https://global.daf-ap
 
 flywire.set_chunkedgraph_secret("insert token here")
 
+After your FlyWire token is set up, run the code.
+
 Syntax for narrowing down neuron criteria:
 - type = Cell Type; eg. type = "MBON17"
   To narrow down the search to be exact, use "^MBON17$"
