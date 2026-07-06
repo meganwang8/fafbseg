@@ -7,7 +7,9 @@ In VSCode, download the Python extension, then create a virtual environment in y
 
 In your project terminal, install fafbseg by using "pip3 install git+https://github.com/navis-org/fafbseg-py.git".
 
-Set up the FlyWire dataset by following this link (https://fafbseg-py.readthedocs.io/en/latest/source/tutorials/flywire_setup.html#flywire-setup). Generate a new token using https://global.daf-apis.com/auth/api/v1/create_token.
+Set up the FlyWire dataset by generating a new token using https://global.daf-apis.com/auth/api/v1/create_token. After your token is created, add this line into your code after the imports:
+
+flywire.set_chunkedgraph_secret("insert token here")
 
 Syntax for narrowing down neuron criteria:
 - type = Cell Type; eg. type = "MBON17"
