@@ -1,9 +1,11 @@
 import navis
 from fafbseg import flywire
-flywire.set_default_dataset("public")
+
+# flywire.set_chunkedgraph_secret("insert token here")
+flywire.set_default_dataset("public") # sets default dataset to public, no additional access token is required
 
 print("Searching for neurons ...")
-neuron_criteria = flywire.NeuronCriteria(type="^PPL104$", regex=True)
+neuron_criteria = flywire.NeuronCriteria(type="^PPL104$", regex=True) # this is the only line you need to change!
 
 print("Downloading 3D mesh ...")
 neuron_meshes = flywire.get_mesh_neuron(neuron_criteria)
