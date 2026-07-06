@@ -1,7 +1,7 @@
 # remember to install fafbseg by using the command pip3 install fafbseg in your terminal
 import navis
 import trimesh
-# import fast_simplification  # Not necessary
+import fast_simplification
 from fafbseg import flywire
 
 # flywire.set_chunkedgraph_secret("insert token here")
