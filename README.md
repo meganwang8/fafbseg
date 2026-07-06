@@ -1,4 +1,5 @@
 This repository has code to download FlyWire meshes and append several meshes into 1 .obj file.
+single-neuron-mesh.py is to download meshes of individual neurons, while mesh-combine.py appends multiple cells into one file.
 
 Before using this code, install Python version 3.11.5 and VSCode, and create a virtual environment after opening a project folder.
 
