@@ -13,6 +13,8 @@ flywire.set_chunkedgraph_secret("insert token here")
 
 After your FlyWire token is set up, run the code.
 
+Note: if you are appending neurons, install the fast_simplification package by typing pip3 install fast-simplification in your terminal.
+
 Syntax for narrowing down neuron criteria:
 - type = Cell Type; eg. type = "MBON17"
   To narrow down the search to be exact, use "^MBON17$"
